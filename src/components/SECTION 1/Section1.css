@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 1em;
+}
+
+#sec1 {
+  color: white;
+  aspect-ratio: 16/7.5;
+  background-image: url(../../assets/images/main.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+}
+#sec1 .sec1cont {
+  height: 100%;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#sec1 .sec1cont .top {
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1.2rem;
+}
+#sec1 .sec1cont .top .head {
+  font-size: 3rem;
+  font-weight: 300;
+}
+#sec1 .sec1cont .top .para {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+#sec1 .sec1cont .top .btn button {
+  cursor: pointer;
+  border: none;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  background-color: #0D1A2D;
+  padding: 0.7rem 1.4rem;
+  border-radius: 25px;
+  font-weight: 100;
+  font-size: 1rem;
+}
+#sec1 .sec1cont .down {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  font-size: 0.8rem;
+}
+#sec1 .sec1cont .down .coaches {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+#sec1 .sec1cont .down .coaches .face-cards {
+  height: 45px;
+  width: 110px;
+  border-radius: 25px;
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), transparent);
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+  position: relative;
+}
+#sec1 .sec1cont .down .coaches .face-cards img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#sec1 .sec1cont .down .coaches .face-cards img:nth-child(1) {
+  left: 30%;
+}
+#sec1 .sec1cont .down .coaches .face-cards img:nth-child(3) {
+  left: 70%;
+}
+#sec1 .sec1cont .down .socials {
+  display: flex;
+  gap: 10px;
+}
+#sec1 .sec1cont .down .socials span a {
+  color: white;
+}
+#sec1 .sec1cont .down .socials span i {
+  display: inline-block;
+  transition: all 0.25s;
+}
+#sec1 .sec1cont .down .socials span:hover i {
+  transform: rotate(43deg);
+}/*# sourceMappingURL=Section1.css.map */

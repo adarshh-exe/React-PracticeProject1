@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  --default-font-size: 16px;
+}
+
+div#navigation-bar {
+  padding: 0 0 1.5rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div#navigation-bar a {
+  text-decoration: none;
+}
+div#navigation-bar .heading {
+  font-weight: 500;
+  font-size: 1.65rem;
+}
+div#navigation-bar .heading a {
+  color: black;
+}
+div#navigation-bar nav .nav-list {
+  font-size: 1.2rem;
+  padding: 0.5rem 0.5rem;
+  font-size: var(--default-font-size);
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.5em;
+}
+div#navigation-bar nav .nav-list a {
+  color: black;
+  font-weight: 400;
+}
+div#navigation-bar nav .nav-list li {
+  padding: 0.3rem 0.6rem;
+  border-radius: 20px;
+}
+div#navigation-bar nav .nav-list li:hover {
+  outline: 1.5px solid rgb(169, 169, 169);
+}
+div#navigation-bar .book {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0D1A2D;
+  padding: 0.7rem 1.4rem;
+  border-radius: 25px;
+}
+div#navigation-bar .book span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 5px;
+}
+div#navigation-bar .book span a {
+  color: white;
+  font-weight: 300;
+}
+div#navigation-bar .book span i {
+  font-size: 1.2rem;
+  transition: all 0.25s;
+}
+div#navigation-bar .book:hover i {
+  transform: rotate(43deg);
+}/*# sourceMappingURL=Nav.css.map */

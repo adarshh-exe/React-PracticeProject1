@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+div.s3-main {
+  width: 100%;
+  padding: 3.5rem 0;
+  display: flex;
+  align-items: center;
+}
+div.s3-main .cards {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+div.s3-main .cards .c1 {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+div.s3-main .cards .c1 .c1-top {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+div.s3-main .cards .c1 .c1-top span {
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 1px solid rgb(182, 182, 182);
+  font-size: 1.1em;
+  padding: 0.3em 0.5em;
+  border-radius: 20px;
+}
+div.s3-main .cards .c1 .c1-top p {
+  font-size: 2rem;
+}
+div.s3-main .cards .c1 .c1-bot .explorebtn {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #0E1B2D;
+  padding: 0.7em 1em;
+  border-radius: 20px;
+  color: whitesmoke;
+  display: flex;
+  gap: 5px;
+}
+div.s3-main .cards .c1 .c1-bot .explorebtn a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+div.s3-main .cards .c1 .c1-bot .explorebtn i {
+  display: inline-block;
+  transition: all 0.3s;
+}
+div.s3-main .cards .c1 .c1-bot .explorebtn:hover i {
+  transform: rotate(45deg);
+}
+div.s3-main .cards .c2 {
+  background-image: url(../../assets/images/side2.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+div.s3-main .cards .c2 .c2-top span {
+  padding: 0.7rem 1.2rem;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(to bottom right, white, transparent);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+}
+div.s3-main .cards .c2 .c2-bot {
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+div.s3-main .cards .c2 .c2-bot .bot-para {
+  font-size: 1.2rem;
+  width: 60%;
+}
+div.s3-main .cards .c2 .c2-bot .arrow {
+  padding: 0.8rem 1rem;
+  background-color: black;
+  border-radius: 50%;
+}
+div.s3-main .cards .c3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+div.s3-main .cards .c3 .bg-top {
+  color: white;
+  height: 65%;
+  background-image: url(../../assets/images/side3.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+div.s3-main .cards .c3 .bg-top span:nth-child(1) {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.7rem 1.2rem;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(to bottom right, white, transparent);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+}
+div.s3-main .cards .c3 .bg-top span:nth-child(2) {
+  font-size: 1.3rem;
+}
+div.s3-main .cards .c3 .c3-bot {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+div.s3-main .cards .c3 .c3-bot .bot-para {
+  width: 55%;
+  font-size: 1.2rem;
+}
+div.s3-main .cards .c3 .arrows {
+  display: flex;
+  gap: 5px;
+}
+div.s3-main .cards .c3 .arrows .arro {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 0.1px solid rgb(176, 176, 176);
+  transition: all 0.4s;
+}
+div.s3-main .cards .c3 .arrows .arro:hover {
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=Section3.css.map */
